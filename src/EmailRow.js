@@ -40,7 +40,7 @@ const EmailRow = ({ id, title, subject, description, time }) => {
           <span className="emailRow__description"> - {description}</span>
         </h4>
       </div>
-      <p className="emailRow__time" onMouseOver={LabelImportantIcon} >{time}</p>
+      <p className="emailRow__time" >{time}</p>
     </div>
   )
 }
