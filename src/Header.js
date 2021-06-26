@@ -6,7 +6,6 @@ import SearchIcon from '@material-ui/icons/Search';
 import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
 import AppsIcon from '@material-ui/icons/Apps';
 import NotificationsIcon from '@material-ui/icons/Notifications';
-import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import { useDispatch, useSelector } from 'react-redux';
 import { logout, selectUser } from './features/userSlice';
 import { auth } from './firebase';
@@ -28,7 +27,7 @@ const Header = () => {
         <IconButton>
           <MenuIcon />
         </IconButton>
-        <img src="https://res.cloudinary.com/dz4tt9omp/image/upload/v1623934928/gmail_logo_PNG13.png" alt="Gmail Image" />
+        <img src="https://res.cloudinary.com/dz4tt9omp/image/upload/v1623934928/gmail_logo_PNG13.png" alt="" />
       </div>
 
       <div className="header__center">

@@ -27,7 +27,7 @@ const Login = () => {
   return (
     <div className="login">
       <div className="login__container">
-        <img src="https://res.cloudinary.com/dz4tt9omp/image/upload/v1624541999/gmail_2.png" />
+        <img src="https://res.cloudinary.com/dz4tt9omp/image/upload/v1624541999/gmail_2.png" alt="" />
         <Button variant="contained" color="primary" onClick={signIn}>Login</Button>
       </div>
     </div>

@@ -10,7 +10,6 @@ import QueryBuilderIcon from '@material-ui/icons/QueryBuilder';
 import LabelImportantIcon from '@material-ui/icons/LabelImportant';
 import SendIcon from '@material-ui/icons/Send';
 import NoteIcon from '@material-ui/icons/Note';
-import LabelIcon from '@material-ui/icons/Label';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import PersonIcon from '@material-ui/icons/Person';
 import DuoIcon from '@material-ui/icons/Duo';

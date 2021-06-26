@@ -10,7 +10,7 @@ import firebase from 'firebase'
 
 const SendMail = () => {
 
-  const { register, handleSubmit, watch, formState: { errors } } = useForm();
+  const { register, handleSubmit, formState: { errors } } = useForm();
 
   const onSubmit = (formData, e) => {
     e.preventDefault();
